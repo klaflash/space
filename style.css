@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: JetBrains Mono, sans-serif;
+    background-color: black;
+}
+
+.page {
+    background-color: black;
+    color: white;
+    height: 300vh;
+    font-size: 40px;
+    font-family: Manrope, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.title {
+    font-family: Manrope, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px white;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.logo-cover {
+    position: absolute;
+    background-color: black;
+    width: 5rem;
+    height: 5rem;
+    bottom: -40vh;
+    right: 0;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.footer {
+    background-color: black;
+    color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
